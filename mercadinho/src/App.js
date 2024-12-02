@@ -1,23 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
 
+import  Componente from './pages/Componentes';
+import NovoComponente from './pages/NovoComponentes';
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="login_container">
+        <h2>Login</h2>
+        <form id='login'>
+          <div className="form-group">
+            
+          </div>
+        </form>
+
+      </div>
     </div>
   );
 }
