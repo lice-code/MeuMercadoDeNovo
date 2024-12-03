@@ -1,21 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
 
-import  Componente from './pages/Componentes';
-import NovoComponente from './pages/NovoComponentes';
+import './App.css';
+import Componentes from './pages/Componentes';
+import NovoComponentes from './pages/NovoComponentes';
+import Login from './pages/Login';
+
+
+
+
 
 function App() {
   return (
     <div className="App">
-      <div className="login_container">
-        <h2>Login</h2>
-        <form id='login'>
-          <div className="form-group">
-            
-          </div>
-        </form>
+      {/* CSS com module*/}
+      <NovoComponentes />
 
-      </div>
+      {/* CSS com componente */}
+      <Componentes />
+
+
+     <Login />
+
     </div>
   );
 }
